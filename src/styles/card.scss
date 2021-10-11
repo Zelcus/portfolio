@@ -1,0 +1,7 @@
+.card {
+    display: flex;
+    flex-basis: 25%;
+    box-shadow: 0px 5px 20px -3px $mainBlack;
+    text-align: center;
+    padding: $smallSpacing $mediumSpacing;
+}

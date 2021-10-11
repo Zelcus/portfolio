@@ -1,9 +1,7 @@
-import "../../gatsby-browser.js";
 import * as React from "react";
-import { Navigator } from "../components/nav.js";
 import "../styles/main.scss";
-
-const IndexPage = () => {
+import { Navigator } from "../components/nav";
+const MusicPage = () => {
     return (
         <main>
             <Navigator />
@@ -16,4 +14,4 @@ const IndexPage = () => {
     );
 };
 
-export default IndexPage;
+export default MusicPage;
